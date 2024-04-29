@@ -2,6 +2,8 @@
 """
 task 0
 """
+
+
 def (a: float, b: float) -> float:
     """doc func"""
     return a + b
