@@ -1,0 +1,6 @@
+// task 2
+db.school.insert(
+	{
+		name: "Holberton school"
+	}
+)
