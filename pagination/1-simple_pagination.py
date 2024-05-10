@@ -16,7 +16,7 @@ class Server:
     def __init__(self):
         """Initialize the server"""
         self.__dataset = None
-    
+
     def dataset(self) -> List[List]:
         """Load dataset"""
         if self.__dataset is None:
