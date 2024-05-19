@@ -11,7 +11,6 @@ export default class EVCar {
   }
 
   cloneCar() {
-    const clonedCar = new Car(this._brand, this._motor, this._color);
-    return clonedCar;
+    return new Car(this._brand, this._motor, this._color);
   }
 }
