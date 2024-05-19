@@ -6,6 +6,10 @@ export default class EVCar {
     this._range = range;
   }
 
+  get range() {
+    return this._range;
+  }
+
   cloneCar() {
     const clonedCar = new Car(this._brand, this._motor, this._color);
     return clonedCar;
