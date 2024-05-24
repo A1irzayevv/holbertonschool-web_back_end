@@ -7,7 +7,7 @@ function handleResponseFromAPI(promise) {
         body: 'success',
       };
     })
-    .catch(() => {
+    .catch((error) => {
       console.log('Got a response from the API');
       return Promise.reject(error);
     });
